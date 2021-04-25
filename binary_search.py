@@ -100,8 +100,8 @@ def binary_recursive(elements, search_item, index_mod=0):
 
 """
 Some things to get note
-
 #Too long int to be divided, (library which use C or other
 # language where the int type is limited)
 middle_index = (left + rigth) // 2 is better writen like this:
 middle_index = left + (right - left) // 2
+"""
