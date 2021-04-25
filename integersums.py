@@ -21,6 +21,9 @@ def add_it_up(n):
     # a better way to do it
     return sum([i for i in range(0, n + 1)], start=0)
 
+    # even better way to do it
+    return sum(range(n + 1))
+
     # a recursive way
     return n + add_it_up(n - 1)
 
